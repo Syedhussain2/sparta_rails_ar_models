@@ -14,7 +14,11 @@
 <%= form.text_field :description %>
 <%= form.label :person_id %>
 <%= form.number_field :person_id %>
+<div class="field">
+  <%= form.label :confirm %>
+  <%= form.check_box :confirm %>
 
+</div>
   <div class="actions">
     <%= form.submit %>
   </div>
