@@ -1,0 +1,16 @@
+body {
+background: url('photo11.jpeg');
+background-repeat:no-repeat;
+// width: 100%;
+background-position: center;
+background-size: 100%;
+}
+.jumbotron {
+background: rgbA(196, 147, 152, 0.6);
+}
+.table {
+  background-color: rgbA(140, 163, 230, 0.6);
+}
+.navbar {
+  padding: 20px;
+}
